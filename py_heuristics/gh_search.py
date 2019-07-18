@@ -1,7 +1,7 @@
 import re, urllib2, time
 from github import Github
 
-access_token = 'd05b43a10f8bc3720d6d20f23f2fa3cbff8d8360'
+access_token = '[access_token]'
 gh = Github(access_token)
 
 def search_repositories(q):
